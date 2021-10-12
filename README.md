@@ -14,10 +14,10 @@ to performance tuning, query optimization etc.,
 Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the difference in salaries.
 
 **Data Structure:**
-
+[View here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/datasets/Day1/data_model.PNG)
 
 **Datasets:**
-
+[View here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day1)
 
 
 **Solution1:**
