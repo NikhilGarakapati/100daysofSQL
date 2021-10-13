@@ -14,35 +14,23 @@ to performance tuning, query optimization etc.,
 Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the difference in salaries.
 
 **Data Structure:**
-[View here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/datasets/Day1/data_model.PNG)
+[view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/datasets/Day1/data_model.PNG)
 
 **Datasets:**
-[View here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day1)
+[view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day1)
 
 
-**Solution1:**
+**Solution1:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/sql/day1)
 
-```
-select abs(max(case when dd.department like '%marketing%' then de.salary else null end) -
-max(case when dd.department like '%engineering%' then de.salary else null end)) salary_difference
-from db_employee de
-inner join db_dept dd on dd.id = de.department_id
-```
 
-**Solution2:**
+---
+## Day2
+**Problem statement:**
 
-```
-with maximum_marketing_salary as (
-    select max(de.salary) max_marketing_salary from db_employee de
-    inner join db_dept dd on dd.id = de.department_id
-    where dd.department like '%marketing%'
-), 
-maximum_engineering_salary as (
-    select max(de.salary) max_engineering_salary from db_employee de
-    inner join db_dept dd on dd.id = de.department_id
-    where dd.department like '%engineering%'
-)
+Find the date with the highest total energy consumption from the data centers. Output the date along with the total energy consumption across all data centers.
 
-select (abs(max_marketing_salary-max_engineering_salary)) salary_difference
- from maximum_marketing_salary, maximum_engineering_salary;
-```
+**Data model:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/datasets/Day2/data_model.PNG)
+
+**Datasets** [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day2)
+
+**Solution:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/sql/day2)
