@@ -40,6 +40,6 @@ Find the date with the highest total energy consumption from the data centers. O
 **Problem statement:**
 Find the total number of downloads for paying and non-paying users by date. Include only records where non-paying customers have more downloads than paying customers. The output should be sorted by earliest date first and contain 3 columns date, non-paying downloads, paying downloads.
 
-**Datasets:** [view here]()
+**Datasets:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day3)
 
-**Solution:** [view here]()
+**Solution:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/sql/day3/paying_and_non_paying1.sql)
