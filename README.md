@@ -54,3 +54,12 @@ The 'user1' and 'user2' column are pairs of friends.
 **Datasets:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day4)
 
 **Solution:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/sql/day4/facebook_users1.sql)
+
+---
+## Day5
+**Problem statement:**
+Write a query that'll identify returning active users. A returning active user is a user that has made a second purchase within 7 days of any other of their purchases. Output a list of user_ids of these returning active users.
+
+**Datasets**: [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day5)
+
+**Solution:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/sql/day4/user_purchases.sql)
