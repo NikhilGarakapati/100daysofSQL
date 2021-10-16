@@ -62,4 +62,4 @@ Write a query that'll identify returning active users. A returning active user i
 
 **Datasets**: [view here](https://github.com/NikhilGarakapati/100daysofSQL/tree/main/datasets/Day5)
 
-**Solution:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/sql/day4/user_purchases.sql)
+**Solution:** [view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/sql/day5/user_purchases.sql)
