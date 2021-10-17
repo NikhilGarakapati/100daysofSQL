@@ -15,6 +15,3 @@ cte2 as (
 select distinct user_id from cte2
 where time_period <=7
 order by user_id asc;
-
-
-select * from user_purchases;
