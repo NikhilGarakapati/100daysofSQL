@@ -72,3 +72,4 @@ Write a query that'll identify returning active users. A returning active user i
 ## Day7
 
 ### Exploring Booking.com dataset
+[view here](https://github.com/NikhilGarakapati/100daysofSQL/blob/main/sql/bookingcom-playground/bookingcom.md)
